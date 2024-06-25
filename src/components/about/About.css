@@ -1,0 +1,258 @@
+.about__cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin: 40px;
+}
+
+.about{
+    margin-top: 10rem;
+    padding-top: 1rem;
+}
+.about_experience{
+    
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-right: 30px;
+    text-align: justify;
+}
+
+
+
+.about_me{
+    margin-left: 10px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-right: 30px;
+    text-align: justify;
+}
+.rahul{
+    /* background: linear-gradient(var(--color-primary),transparent); */
+    height: 15rem;
+    width: 15rem;
+    position: absolute;
+    left: calc(54.5% - 11rem);
+    margin-top: 0.1em;
+    transform: scalex(-1);
+    margin-right: 23rem;
+    border-radius: 12rem 12rem 12rem 12rem;
+}
+
+
+.rahul_back{
+    /* background: linear-gradient(var(--color-primary),transparent); */
+    width: 24rem;
+    height: 28rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 0.1em;
+    margin-left: 18em;
+    border-radius: 12rem 3rem 12rem 3rem; 
+}
+
+.getToKnow{
+    font-size: 25px;
+
+}
+.AboutMe{
+    border: 0;
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.experience{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    justify-content: center;
+    margin-left: 80px;
+}
+.about__card{
+    /* background: linear-gradient(rgba(161, 212, 248, 0.6) 20%,transparent 100%); */
+    background: linear-gradient(rgba(125, 5, 1, 0.8) 40%,transparent 100%);
+    /* background: linear-gradient(var(--color-primary) 50%, transparent 100%); */
+    border-radius:  1rem;
+    text-align: center;
+    transition: var(--transition);
+    margin-left: 50px;
+}
+
+.about__experience{
+    margin: 2rem 0 2.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__card_experience{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius:  1rem;
+    text-align: center;
+    transition: var(--transition);
+    padding: 20px;
+    width: 50%;
+}
+
+.about__card:hover {
+    background: rgb(91, 34, 30,0.5);
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.about__experience__icon {
+    color: var(--color-white);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.about__card h5{
+    font-size:  1.2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.about__card small {
+    font-size: 0.8rem;
+    margin-top: 0;
+    color: var(--color-light);
+}
+
+.cisco {
+    width: 40%;
+    margin-left: 20rem;
+}
+
+.about__container p {
+    margin-top: 20rem;
+    margin: 2rem 0 5.6rem;
+    text-align: center;
+    color: var(--color-light);
+}
+
+/* =============== MEDIA QUERIES (Medium devices) ============= */
+@media screen and (max-width: 1024px) {
+    .about {
+        margin-bottom: 10rem;
+    }
+    
+    .about__container {
+        margin: auto;
+    }
+    .rahul{
+        width: 50%;
+        height: 100%;
+        margin: auto;
+    }
+
+    .rahul_back{
+        left: 0;
+        margin-left: 45%;
+        width: 75%;
+        height: 45%;
+        margin-top: 0;
+    }
+    .about__experience{
+        margin: auto;
+    }
+    .about__container p {
+        margin: 1rem 0 1.5rem;
+    }
+    .rahul{
+        /* background: linear-gradient(var(--color-primary),transparent); */
+        height: 15rem;
+        width: 15rem;
+        position: absolute;
+        left: calc(55.5% - 11rem);
+        margin-top: 0.1em;
+        transform: scalex(-1);
+        margin-right: 23rem;
+        border-radius: 12rem 12rem 12rem 12rem;
+    }
+
+    .about__container{
+        margin-top: 20rem;
+    }
+
+    .rahul_back{
+        /* background: linear-gradient(var(--color-primary),transparent); */
+        width: 24rem;
+        height: 28rem;
+        position: absolute;
+        left: calc(50% - 11rem);
+        margin-top: 0.1em;
+        margin-left: 18em;
+        border-radius: 12rem 3rem 12rem 3rem; 
+    }
+    .cisco{
+        width: 40%;
+        margin-left: 30%;
+    }
+}
+
+/* =============== MEDIA QUERIES (Medium devices) ============= */
+@media screen and (max-width: 600px) { 
+    .about__cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.5rem;
+        margin: 40px;
+    }
+
+    .about_me p{
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    .rahul{
+        /* background: linear-gradient(var(--color-primary),transparent); */
+        height: 10rem;
+        width: 10rem;
+        position: absolute;
+        left: calc(54.5% - 11rem);
+        margin-top: 0.1em;
+        margin-left: 20%;
+        transform: scalex(-1);
+        margin-right: 23rem;
+        border-radius: 12rem 12rem 12rem 12rem;
+    }
+
+    .rahul_back{
+        /* background: linear-gradient(var(--color-primary),transparent); */
+        width: 24rem;
+        height: 28rem;
+        position: absolute;
+        left: calc(50% - 11rem);
+        margin-top: 0.1em;
+        margin-left: 18em;
+        border-radius: 12rem 3rem 12rem 3rem; 
+    }
+
+    .about__container{
+        margin-top: 13rem;
+    }
+
+    .about__card{
+        margin-left: 0;
+    }
+    .experience{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.5rem;
+        margin: 40px;
+    }
+    .about {
+        margin-top: 20rem;
+        padding-top: 1rem;
+    }
+
+    .cisco{
+        width: 80%;
+        margin-left: 10%;
+    }
+}

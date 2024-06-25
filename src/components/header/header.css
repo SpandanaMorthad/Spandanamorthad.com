@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+
+.header_section{
+    padding: 0;
+    margin: 0;
+}
+
+.Introduction > h1,h4 {
+    font-family: "Playwrite NG Modern", cursive;
+}
+
+header {
+    overflow: hidden;
+}
+
+.header_cards{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.Hello{
+    font-size: 30px;
+    margin: 0;
+}
+
+.Rahul{
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0;
+}
+
+#Description{
+    font-size: 17px;
+}
+
+#Picture_social{
+    display: flex;
+}
+
+#Header_cont{
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: var(--container-width-lg);
+  margin: 0 auto;
+    /* position: relative;   */
+}
+ /*=================== CTA ===========================*/
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+}
+
+.cta a {
+    text-decoration: none;
+}
+
+/*=================== Header Socials ===========================*/
+.header_socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: absolute; */
+    margin-top: 10em;
+    margin-left: 32em;
+    left: 0;
+    bottom: 50%;
+}
+
+
+#socialPhoto{
+    align-items: center;
+}
+
+#Introduction{
+    margin-top: 1em;
+    margin-left: 10px;
+}
+
+/*=================== ME ===========================*/
+.me {
+    background: linear-gradient(var(--color-primary),transparent);
+    width: 24rem;
+    height: 28rem;
+    position: absolute;
+    /* left: calc(50% - 11rem); */
+    margin-top: 6rem;
+    margin-left: 6.8rem;
+    border-radius: 12rem 3rem 12rem 3rem;
+}
+
+.spandana {
+    border-radius: 12rem 3rem 12rem 3rem;
+    width: 24rem;
+    height: 28rem;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: -1rem;
+}
+
+
+/*=================== Scroll Down ===========================*/
+/* a {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-size: 0.9rem;
+    font-weight: 300;
+} */
+
+#Scroll__Down {
+    position: absolute;
+    margin-left: 93em;
+    top: 27rem;
+    transform: rotate(90deg);
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+/* =============== MEDIA QUERIES (Medium devices) ============= */
+@media screen and (max-width: 1024px) {
+    .header_cards{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 10%;
+        padding: 0;
+    }
+
+    .cta {
+    justify-content: center;
+    }
+
+    .header_section{
+        margin-bottom: 7rem;
+    }
+
+    #Introduction{
+    margin-top: 8em;
+    margin-left: 30px;
+    }
+}
+
+/* =============== MEDIA QUERIES (Medium devices) ============= */
+@media screen and (max-width: 600px) { 
+    .header_cards{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .me{
+        left: calc(50.5% - 10rem);
+        width: 30%;
+        height: 30%;
+    }
+    .spandana{
+        width: 100%;
+        height: 80%;
+    }
+    .cta {
+        justify-content: left;
+        }
+
+    .header_socials, #Scroll__Down {
+        display: none;
+    }
+}
