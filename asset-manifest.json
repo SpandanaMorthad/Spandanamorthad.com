@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.83463786.css",
+    "main.js": "/static/js/main.7e48b52d.js",
+    "static/media/Spandana2.png": "/static/media/Spandana2.4600db15fc48c501d680.png",
+    "static/media/clean-concrete-texture.jpg": "/static/media/clean-concrete-texture.4badd2a1258a324e7bf8.jpg",
+    "static/media/Spandana1.png": "/static/media/Spandana1.a78cce6e954eddc32186.png",
+    "static/media/DBMS.png": "/static/media/DBMS.1187a67e3a9da6dce260.png",
+    "static/media/Spandana_BA_Resume.docx": "/static/media/Spandana_BA_Resume.d1ca222f9feba20766ed.docx",
+    "index.html": "/index.html",
+    "main.83463786.css.map": "/static/css/main.83463786.css.map",
+    "main.7e48b52d.js.map": "/static/js/main.7e48b52d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83463786.css",
+    "static/js/main.7e48b52d.js"
+  ]
+}
